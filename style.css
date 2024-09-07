@@ -1,0 +1,18 @@
+body {
+    background-color: lightblue;
+    color: black;
+    transition-duration: 1002ms;
+    transition-property: all;
+}
+table, th, td {
+    text-align: center;
+    border-width: 0 1px 0 0;
+    padding: 10px 17px 10px 12px;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    color: black;
+    transition-duration: 1.5s;
+}
+th:hover, td:hover {
+    background-color: blueviolet;
+}
